@@ -1,2 +1,43 @@
-<h1>Registration</h1>
-<p>this is the registration page</p>
+<main class="form-registration w-100 m-auto">
+    <h2>Sign up</h2>
+
+    <div class="d-flex flex-row">
+        <div class="p-2">
+            <a  href=""><img src="../public/images/icon/reddit-icon.png" alt="reddit icon" ></a>
+        </div>
+        <div class="p-2">
+            <a class="social-icon" href=""><img  src="../public/images/icon/google-icon.png" alt="reddit icon" ></a>
+        </div>
+        <div class="p-2">
+            <a class="social-icon" href=""><img  src="../public/images/icon/facebook-icon.png" alt="reddit icon" ></a>
+        </div>
+      </div>
+
+      <p style="color: gray; margin-bottom: 50px; margin-left: -20px;">or use your email account</p>
+    
+
+    <form action="/" method="post">
+
+    <div class="input-group mb-2">
+      <input type="text" class="form-control username"  placeholder="Username" required autofocus>
+    </div>
+
+    <div class="input-group mb-2">
+      <!-- <i class="bi bi-envelope icon"></i> -->
+      <input type="text" class="form-control email"  placeholder="Email" required>
+    </div>
+
+    <div class="input-group mb-2">
+      <input id="password" type="password" class="form-control password"  placeholder="Password" required>
+    </div>  
+
+    <div class="input-group mb-2">
+      <input id="confirm_password" type="password" class="form-control password"  placeholder="Confirm Password" required onkeyup="checkMatchedPassword();">
+    </div>
+      <p id="message"></p>
+      
+    
+    <button class="w-100 custimized-btn btn-lg btn-primary" type="submit" >SIGN UP</button>
+    
+  </form>
+</main>
