@@ -1,0 +1,141 @@
+/* Mobile View */
+@media only screen and (max-width: 768px){
+    /* Universal */
+    body{
+        background-color: #efefef;
+    }
+    /* Universal End */
+
+    /* Home Page */
+    .home .top{
+        display: flex;
+        background-color: #879dd6;
+        margin-top: -0px;
+        height: 100px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .home #dis{
+        margin-left: 20px;
+        color: white;
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .home #dp{
+        height: 40px;
+        margin-left: 170px;
+        margin-top: 35px;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+    .home #dot{
+        font-size: 10px;
+        color: rgb(8, 236, 137);
+    }
+    .home .stat{
+        height: auto;
+        display: flex;
+        
+    }
+    .home .status{
+        display:block;
+        margin-left:20px;
+    }
+    .home #box{
+        width: 150px;
+        height: 70px;
+        border-radius: 5px;
+        border: 0px;
+    }
+    .home #round{
+        height: 40px;
+        margin-top: 5px;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+    .home .title{
+        /* border: 1px solid rgb(193, 77, 77); */
+        margin-top: 30px;
+    }
+    .home .post_title{
+        height: 120px;
+        display: flex;
+        margin-left: 15px;
+        background-color:  #879dd6;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .home #post_T{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: 3px solid white;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .home .post_title h2{
+        margin-left: 20px;
+        margin-top: 30px;
+        color: white;
+    }
+    .home p{
+        margin-left: 120px;
+        margin-top: -50px;
+        color:black;
+    }
+    .home .post{
+        /* border: 1px solid rgb(193, 77, 77); */
+        height: 200px;
+        position: relative;
+        background-color: gray;
+        margin-left: 12px;
+        margin-right: -3px;
+        border-radius: 20px;
+    }
+    .home #like-btn{
+        font-size: 20px;
+        color: #879dd6;
+    }
+    .home #like-btn:active{
+        font-size: 22px;
+    }
+    .home .btn{
+        display: flex;
+    }
+    .home button{
+        margin-left: 30px;
+        width: 40px;
+        height: 30px;
+        margin-top: 20px;
+        border: none;
+    }
+    .home #likeNum{
+        margin-top: -27px;
+        margin-left: 70px;
+        font-size: 20px;
+    }
+    .home .comment{
+        margin-left: 50px;
+    }
+    .home #comment{
+        font-size: 20px;
+        color: #879dd6;
+    }
+    .home #likCom{
+        margin-left: 90px;
+        margin-top: -25px;
+    }
+    .home .share{
+        margin-left: 50px;
+        margin-top: px;
+    }
+    .home #share{
+        font-size: 20px;
+        color: #879dd6;
+    }
+    .home #likeShare{
+        margin-left: 90px;
+        margin-top: -25px;
+    }
+    .home #comment:active, #share:active{
+        font-size: 22px;
+    }
+}

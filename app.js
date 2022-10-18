@@ -6,6 +6,7 @@ const expressLayouts = require('express-ejs-layouts');
 
 // import routes
 const authRoutes = require('./routes/authRoutes');
+const userRoutes = require('./routes/userRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -29,3 +30,4 @@ app.listen(PORT, () => {
 
 // routes
 app.use(authRoutes);
+app.use(userRoutes);
